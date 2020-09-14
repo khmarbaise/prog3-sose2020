@@ -22,7 +22,7 @@ public class GirokontoTest {
     @Test
     void abhebenMitWaehrungswechsel(){
         try{
-            gk.abheben(100, Waehrung.BGN);
+            gk.abheben(195.583, Waehrung.BGN);
         }
         catch (Exception e) {
             System.out.println(e);
